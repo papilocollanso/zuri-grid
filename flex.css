@@ -1,0 +1,123 @@
+
+
+.main{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 14px;
+    margin-left: 14px;
+    margin-left: 15rem;
+   
+}
+.down{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+}
+a:hover{
+    color: red;
+}
+
+#grid{
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 20px;
+    
+  
+}
+a{
+    color: black;
+}
+img{
+    text-align: left;
+    margin-top: 35px;
+    padding-left: 25px;
+}
+.left{
+    padding: 25px;
+}
+body{
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+    
+    
+}
+.one{
+    background-color:hsl(31, 77%, 52%);
+    color:white;
+    width: 18rem;
+
+}
+.two{
+background-color :hsl(184, 100%, 22%);
+color:white;
+width: 18rem;
+}
+.three{
+ background-color:hsl(179, 100%, 13%);
+ color:white;
+ width: 18rem;
+}
+
+p{
+    color:hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+    font-family: "Lexend Deca",Lexend;
+    text-align: left;
+    padding: 2rem;
+    padding-left: 25px;
+    height: 8rem;
+    
+}
+
+h1{
+    color:hsl(0, 0%, 95%);
+    font-weight: 700;
+    font-family: "Big Shoulders Display",sans-serif ;
+    padding-left: 25px;
+}
+button{
+    background-color:hsl(0, 0%, 95%);
+    text-align: center;
+    border-radius: 15px;
+    padding: 5.5px;
+    margin-bottom: 35px;
+    width: 100px;
+    
+    
+}
+
+#one{
+  color: hsl(31, 77%, 52%);
+  border: 3px hsl(31, 77%, 52%);
+  padding: 0.45rem;
+  
+  
+  
+}
+#two{
+color:hsl(184, 100%, 22%);
+border: 3px hsl(184, 100%, 22%);
+padding: 0.45rem;
+}
+#three{
+    color:hsl(179, 100%, 13%); 
+    border: 3px hsl(179, 100%, 13%);
+    padding: 0.45rem;
+
+}
+
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+
+.main{
+  display: block;
+  margin: 15px;
+}
+
+}
+
+
+
+
+
